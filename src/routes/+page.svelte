@@ -157,7 +157,11 @@
                       {tradesData.earliestBuy.card_name}
                     </a>
                     from
-                    <a href={`https://www.nationstates.net/nation=${tradesData.earliestBuy.seller}`}>
+                    <a
+                      class="text-[#c5b4e3] hover:underline"
+                      target="_blank"
+                      href={`https://www.nationstates.net/nation=${tradesData.earliestBuy.seller}`}
+                    >
                       {tradesData.earliestBuy.seller}
                     </a>
                     for {tradesData.earliestBuy.price} bank on
@@ -178,7 +182,11 @@
                       {tradesData.earliestSell.card_name}
                     </a>
                     to
-                    <a href={`https://www.nationstates.net/nation=${tradesData.earliestSell.buyer}`}>
+                    <a
+                      class="text-[#c5b4e3] hover:underline"
+                      target="_blank"
+                      href={`https://www.nationstates.net/nation=${tradesData.earliestSell.buyer}`}
+                    >
                       {tradesData.earliestSell.buyer}
                     </a>
                     for {tradesData.earliestSell.price} bank on
@@ -206,6 +214,7 @@
                     </a>
                     from
                     <a
+                      class="text-[#c5b4e3] hover:underline"
                       target="_blank"
                       href={`https://www.nationstates.net/nation=${tradesData.mostExpensiveBuy.seller}`}
                     >
@@ -231,6 +240,7 @@
                     </a>
                     to
                     <a
+                      class="text-[#c5b4e3] hover:underline"
                       target="_blank"
                       href={`https://www.nationstates.net/nation=${tradesData.mostExpensiveSale.buyer}`}
                     >
