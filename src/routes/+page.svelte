@@ -282,7 +282,7 @@
             </div>
 
             <div class="bg-white/5 p-4 rounded-xl">
-              <h3 class="text-white font-semibold mb-2">Trading through the seasons...</h3>
+              <h3 class="text-white font-semibold mb-2">Trading through the offseasons...</h3>
               <div class="space-y-2">
                 <p class="text-white/80 text-sm">
                   {#if tradesData.mostTradedSeason.count > 0}
