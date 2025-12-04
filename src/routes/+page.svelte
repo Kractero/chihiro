@@ -55,7 +55,6 @@
 
 <div class="min-h-screen bg-[#0a0a0f] flex flex-col items-center justify-center">
   <div class="relative">
-    <p>I am {showResults}</p>
     {#if !showResults}
       <div id="input" class="relative border border-white/10 rounded-xl p-8 space-y-5">
         <div class="space-y-5">
