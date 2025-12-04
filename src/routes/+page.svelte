@@ -30,7 +30,11 @@
     loading = true
 
     try {
-      const res = await fetch(`/api/maki?nation=${nation}`)
+      const res = await fetch(
+        `https://maki.kractero.com/api/trades-wrapped?nation=${encodeURIComponent(
+          nation
+        )}&sincetime=1735689600000&beforetime=1767225599000`
+      )
       const resData = await res.json()
 
       const tes = await parseXML(`https://www.nationstates.net/cgi-bin/api.cgi?nation=${nation}&q=name+flag`, nation)
